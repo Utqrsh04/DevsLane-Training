@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+.bg-hero-container {
+    background-image: url(./img/xl-hero-desktop_2021.webp);
+}
+
+.bg-primary-1{
+    background-color: #1e3932 ;
+}
+
+.bg-primary-2{
+    background-color:#008248;
+} */
