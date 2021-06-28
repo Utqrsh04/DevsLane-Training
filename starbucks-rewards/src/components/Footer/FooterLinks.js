@@ -185,7 +185,7 @@ function FooterLinks() {
             Cookie Preferences
           </a>
         </div>
-        <h3 className="text-gray-500 pb-10 text-left md:text-sm">
+        <h3 className="text-secondry-gray-500 pb-10 text-left md:text-sm">
           &copy; 2021 Starbucks Coffee Company. All rights reserved.
         </h3>
       </section>

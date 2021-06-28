@@ -32,31 +32,31 @@ function OrderPickup() {
 
         <div className="flex flex-col lg:hidden">
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             Order on the App
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             Order on the Web
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             Delivery
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             Order and Pickup Options
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             Explore and Find Coffee for Home

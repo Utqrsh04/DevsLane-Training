@@ -9,10 +9,10 @@ function EndlessExtras() {
   return (
     <div>
       <section className=" max-w-8xl mx-auto py-32 px-8 ">
-        <h1 className="text-center font-semibold text-3xl mb-4">
+        <h1 className="text-center font-semibold md:text-2xl text-3xl mb-4">
           Endless Extras
         </h1>
-        <p className="text-center text-base mb-12 max-w-xl mx-auto">
+        <p className="text-center text-base mb-12 md:text-sm max-w-xl mx-auto">
           Joining Starbucks Rewards means unlocking access to exclusive
           benefits. Say hello to easy ordering, tasty Rewards and—yes, free
           coffee.

@@ -32,31 +32,31 @@ function SocialImpact() {
 
         <div className="flex flex-col lg:hidden">
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 dhover:text-secondry-black"
             href="#"
           >
             Ethical Sourcing
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 dhover:text-secondry-black"
             href="#"
           >
             Leading in Sustainability
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 dhover:text-secondry-black"
             href="#"
           >
             Strengthening Communities
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 dhover:text-secondry-black"
             href="#"
           >
             Creating Opportunities
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 dhover:text-secondry-black"
             href="#"
           >
             Global Social Impact Report

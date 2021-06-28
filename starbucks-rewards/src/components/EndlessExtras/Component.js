@@ -12,11 +12,11 @@ function Component(props) {
         />
         <div>
           <h2 className="mb-4 text-lg font-semibold">{props.heading}</h2>
-          <p className="leading-normal">{props.about}
+          <p className="leading-normal md:text-sm">{props.about}
           </p>
           <button className="my-4">
             <a
-              className="text-primary-darkerShade underline hover:no-underline "
+              className="text-primary-300 md:text-sm underline hover:no-underline "
               href="#"
             >{props.link}
             </a>

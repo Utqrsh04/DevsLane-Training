@@ -32,37 +32,37 @@ function AboutUs() {
 
         <div className="flex flex-col lg:hidden">
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             Our Heritage
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             Our Coffee
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             Stories and News
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             Investor Relations
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             Policies and Standards
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             Customer Service

@@ -32,31 +32,31 @@ function Careers() {
 
         <div className="flex flex-col lg:hidden">
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black "
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black "
             href="#"
           >
             Culture and Values
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             Inclusion, Diversity, and Equity
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             College Achievement Plan
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             U.S. Careers
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             International Careers

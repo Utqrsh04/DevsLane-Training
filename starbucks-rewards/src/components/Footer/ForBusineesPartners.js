@@ -32,25 +32,25 @@ function ForBusineesPartners() {
 
         <div className="flex flex-col lg:hidden">
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             Landlord Support Center
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             Suppliers
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             Corporate Gift Card Sales
           </a>
           <a
-            className="text-base py-2 m-2 text-gray-500 hover:text-black"
+            className="text-base py-2 m-2 text-secondry-gray-500 hover:text-secondry-black"
             href="#"
           >
             Office and Foodservice Coffee

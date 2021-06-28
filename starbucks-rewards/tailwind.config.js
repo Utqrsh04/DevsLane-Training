@@ -14,19 +14,19 @@ module.exports = {
       sm: { max: "639px" },
     },
     colors: {
-      yellow: colors.yellow,
-      blue: colors.blue,
-      black: colors.black,
-      gray: colors.trueGray,
-      white: colors.white,
-      red : colors.red,
+      
       primary: {
-        lightestShade: "#f1f8f6",
-        lightShade: "#d4e9e2",
-        darkShade: "#047857",
-        darkerShade: "#008248",
-        darkestShade: "#1e3932",
+        100: "#f1f8f6",
+        200 : "#d4e9e2",
+        300 : "#008248",
+        400 : "#1e3932",
       },
+      secondry:{
+        yellowShade: "#f3f1e7",
+        black: colors.black,
+        gray: colors.trueGray,
+        white: colors.white,
+      }
     },
     extend: {
       backgroundImage: (theme) => ({
@@ -34,7 +34,9 @@ module.exports = {
         "hero-desktop": "url('img/xl-hero-desktop_2021.webp')",
 
       }),
-
+      fontFamily:{
+        Sans: " 'Helvetica Neue', Helvetica, Arial, sans-serif"
+      },
       backgroundPosition: {
         "1/2": "50%",
         "2/2.5": "40% 100%",

@@ -3,13 +3,13 @@ import React from "react";
 function TermsAndConditions() {
   return (
     <div>
-      <section className="max-w-8xl ml-0 mr-0 text-left text-gray-800 text-sm py-12 px-8 bg-primary-lightestShade">
+      <section className="max-w-8xl ml-0 mr-0 text-left text-gray-800 text-sm py-12 px-4 bg-primary-100">
         <p className="w-full mb-8 leading-snug ">
           At participating stores. Restrictions apply.
         </p>
         <div className="flex md:flex-wrap mb-8 text-left md:text-sm">
           <div className="flex-1 mr-4 md:w-full md:flex-none md:mr-0">
-            <h3 className="text-sm font-bold text-gray-500 mb-4">EARNING STARS</h3>
+            <h3 className="text-sm font-bold text-secondry-gray-500 mb-4">EARNING STARS</h3>
             <p className="mb-4 leading-snug">
               Stars cannot be earned on purchases of alcohol, Starbucks Cards or
               Starbucks Card reloads.
@@ -30,11 +30,11 @@ function TermsAndConditions() {
             </p>
           </div>
           <div className="flex-1 ml-4 md:w-full md:flex-none md:ml-0 mt-8">
-            <h3 className="text-sm font-bold text-gray-500 mb-4">TERMS OF USE</h3>
+            <h3 className="text-sm font-bold text-secondry-gray-500 mb-4">TERMS OF USE</h3>
             <p className="mb-4 leading-snug">
               For full program details visit{" "}
               <a
-                className="text-primary-darkerShade underline hover:no-underline"
+                className="text-primary-300 underline hover:no-underline"
                 href="#"
               >
                 starbucks.com/rewards/terms
@@ -51,7 +51,7 @@ function TermsAndConditions() {
               Starbucks stores. Not all stores have the ability to honor Rewards
               at this time. Visit the{" "}
               <a
-                className="underline text-primary-darkerShade hover:no-underline"
+                className="underline text-primary-300 hover:no-underline"
                 href="#"
               >
                 Starbucks Store Locator
@@ -67,7 +67,7 @@ function TermsAndConditions() {
         
         <div className="flex md:flex-wrap text-left md:text-sm">
           <div className="flex-1 mr-4 md:w-full md:flex-none md:mr-0">
-            <h3 className="text-sm font-bold text-gray-500 mb-4">BENEFITS</h3>
+            <h3 className="text-sm font-bold text-secondry-gray-500 mb-4">BENEFITS</h3>
             <p className=" leading-snug">
               Free refills available during same in-store visit only. To qualify
               for the Birthday Reward, you must have made at least one
@@ -75,7 +75,7 @@ function TermsAndConditions() {
             </p>
           </div>
           <div className="flex-1 ml-4 md:w-full md:flex-none md:ml-0 md:mt-8">
-            <h3 className="text-sm font-bold text-gray-500 mb-4">
+            <h3 className="text-sm font-bold text-secondry-gray-500 mb-4">
               REDEEMING REWARDS
             </h3>
             <p className=" leading-snug">

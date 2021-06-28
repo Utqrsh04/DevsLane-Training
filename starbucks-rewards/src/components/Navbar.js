@@ -3,11 +3,8 @@ import React from "react";
 function Navbar() {
   return (
     <div>
-
-      <header className="fixed z-50 bg-white w-full top-0 left-0 right-0 ">
-        
+      <header className="fixed z-50 bg-secondry-white w-full top-0 left-0 right-0 ">
         <nav className="flex justify-center items-center px-10 md:py-4">
-        
           <div className=" mr-16 w-14 h-14 md:w-8 md:h-8">
             <a href="#">
               <svg
@@ -30,26 +27,26 @@ function Navbar() {
             </a>
           </div>
 
-          <div className="max-w-8xl flex justify-between flex-1 items-center md:hidden">
-            <div className="flex font-bold tracking-widest">
-              <a className="py-11 hover:text-primary-darkShade" href="#">
+          <div className="max-w-8xl flex justify-between text-sm flex-1 items-center md:hidden">
+            <div className="flex font-extrabold tracking-wider">
+              <a className="py-10 hover:text-primary-300 " href="#">
                 MENU
               </a>
               <a
-                className="ml-5 py-11 hover:text-primary-darkShade relative"
+                className="ml-5 py-10 hover:text-primary-300 relative"
                 href="#"
               >
                 REWARDS
-                <div className="absolute bg-primary-darkerShade bottom-0 w-full h-1 "></div>
+                <div className="absolute bg-primary-300 bottom-0 w-full h-1 "></div>
               </a>
-              <a className="ml-5 py-11 hover:text-primary-darkShade" href="#">
+              <a className="ml-5 py-10 hover:text-primary-300" href="#">
                 GIFT CARDS
               </a>
             </div>
 
-            <div className="flex font-semibold">
+            <div className="flex ">
               <a
-                className="flex items-center hover:text-primary-darkShade"
+                className="flex font-semibold items-center text-xs tracking-wider hover:text-primary-300"
                 href="#"
               >
                 <svg
@@ -69,12 +66,12 @@ function Navbar() {
                 </svg>
                 Find a store
               </a>
-              <button className="min-w-max ml-10 py-1 px-4 border font-semibold border-black rounded-3xl hover:bg-gray-200">
+              <button className="min-w-max ml-10 py-1 px-4 border font-semibold border-secondry-black rounded-3xl hover:bg-secondry-yellowShade">
                 Sign in
               </button>
               <button
-                className="min-w-max ml-4 py-1 px-4 border font-semibold rounded-3xl border-black 
-                        bg-black text-white hover:bg-gray-700"
+                className="min-w-max ml-4 py-1 px-4 border font-semibold rounded-3xl border-secondry-black 
+                        bg-secondry-black text-secondry-white hover:bg-secondry-gray-800"
               >
                 Join now
               </button>
@@ -90,19 +87,17 @@ function Navbar() {
           </div>
         </nav>
 
-        <div className="w-full bg-primary-darkestShade tracking-widest">
-          <div className="max-w-8xl mx-auto text-white font-bold py-3 pl-12 2xl:pl-36 md:px-8  items-center flex justify-between">
-            <h1 className="md:text-sm ">STARBUCKS REWARDS</h1>
+        <div className="w-full bg-primary-400 tracking-widest">
+          <div className="max-w-8xl mx-auto text-secondry-white font-bold py-3 pl-12 2xl:pl-36 md:px-8  items-center flex justify-between">
+            <h1 className="md:text-sm ">STARBUCKS® REWARDS</h1>
             <button
               className="min-w-max hidden md:block ml-11 md:py-1 py-2 px-4 border
-                    border-white rounded-3xl hover:bg-primary-darkerShade md:text-sm"
+                    border-secondry-white rounded-3xl hover:bg-primary-300 md:text-sm"
             >
               Join in the app
             </button>
           </div>
-
         </div>
-        
       </header>
     </div>
   );

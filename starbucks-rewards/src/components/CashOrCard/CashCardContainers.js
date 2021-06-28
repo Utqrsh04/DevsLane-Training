@@ -6,16 +6,16 @@ function CashCardContainers(props) {
       <div className="max-w-8xl mx-auto flex justify-between px-8 lg:flex-wrap">
         {/* <!-- sub container 1 --> */}
         <div className="w-1/6 min-w-1/6 lg:w-full lg:mb-8 text-left">
-          <h1 className="text-2xl font-semibold mb-3 w-full">
-            {props.heading1}
+          <h1 className="text-2xl md:text-xl font-semibold mb-3 w-full">
+            {props.heading1}&nbsp;
             <svg className="inline" height="28" width="20">
               <polygon
                 points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78"
               />
             </svg> 
-            per dollor
+            &nbsp;per dollor
           </h1>
-          <p className="text-base leading-snug w-full">{props.about1}</p>
+          <p className="text-base md:text-sm leading-snug w-full">{props.about1}</p>
         </div>
 
         {/* <!-- sub container 2 --> */}
@@ -27,8 +27,8 @@ function CashCardContainers(props) {
             alt=""
           />
           <div className="">
-            <h1 className="text-xl font-semibold mb-4">{props.heading2}</h1>
-            <p className=" leading-snug">{props.about2}</p>
+            <h1 className="text-xl md:text-lg font-semibold mb-4">{props.heading2}</h1>
+            <p className=" leading-snug md:text-sm">{props.about2}</p>
           </div>
         </div>
 
@@ -41,8 +41,8 @@ function CashCardContainers(props) {
             alt=""
           />
           <div className="">
-            <h1 className="text-xl font-semibold mb-4">{props.heading3}</h1>
-            <p className="leading-snug">{props.about3}</p>
+            <h1 className="text-xl md:text-lg  font-semibold mb-4">{props.heading3}</h1>
+            <p className="leading-snug md:text-sm">{props.about3}</p>
           </div>
         </div>
 

@@ -3,7 +3,7 @@ import React from "react";
 function FavoriteItems(props) {
   return (
     <div>
-      <div className="py-8 bg-primary-lightShade flex md:flex-col justify-center items-center px-8">
+      <div className="py-8 bg-primary-200 flex md:flex-col justify-center items-center px-8">
         <img
           className="max-w-sm md:max-w-full"
           src={props.image}
